@@ -1,0 +1,7 @@
+print(typeof(1))
+print(typeof(-10.4))
+print(typeof(NaN))
+print(as.integer(1))
+print(typeof(as.integer(1)))
+print(as.numeric(as.integer(5)))
+print(typeof(as.numeric(as.integer(5))))
