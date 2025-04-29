@@ -26,3 +26,11 @@ print(over_half)
 my_letters <- c("a", "b", "c", "d", "f", "a", "a", "c")
 print(my_letters)
 print(my_letters[my_letters %in% c("a", "c")])
+
+example_vector <- c(1, 2, 3);
+print(example_vector + 10)
+
+v1 <- c(1,2,3)
+v2 <- c(8, 9, 10)
+print(v1 %*% v2)
+print(paste(v1, v2))
