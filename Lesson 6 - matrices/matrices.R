@@ -12,3 +12,16 @@ print(X)
 
 Y <- rbind(c(1, 2, 3), c(4, 5, 6), c(7, 8, 9))
 print(Y)
+
+Y <- t(Y)
+print(Y)
+
+print(Y[3, 2])
+print(Y[3, ])
+print(Y[, 1])
+
+Y <- as.vector(Y)
+print(Y)
+
+y <- sum(Y)
+print(y)
